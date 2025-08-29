@@ -1,0 +1,201 @@
+/* (Estilos generales*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: #ffffff;
+    margin: 0
+    
+}
+
+/*Encabezado */
+header {
+    background-color: #f6cd7c;
+    color: rgb(66, 40, 6);
+    
+
+    
+    display: flex;        
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-between; 
+    min-height: 20vh;      
+    max-height: 20vh;     
+    nav{
+        background-color: black;
+        display: flex;
+        padding: 20px;
+        gap: 20px
+    }
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: #ffffff;
+        color:rgb(66, 40, 6)
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-height: 10vh;
+
+}
+
+.logo img{
+    max-height:20vh;
+    max-width: 20%;
+}
+
+/* Secciones */
+section {
+
+    font-size: large;
+    color: #5e2812;
+}
+/* Seccion hero*/
+.hero {
+    display: flex;
+    justify-content: center;  /* centra horizontalmente */
+    align-items: center;      /* centra verticalmente */
+    
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+    width: 100%;               /* contenedor ocupa todo el ancho */
+    min-height: 80vh;
+    
+    margin: 20px auto;         /* centra el bloque si hay margen lateral */
+    padding: 20px;
+    border-radius: 5px;
+}
+.hero div{
+    
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 20px;             /* agrega espacio interno */
+    border-radius: 5px;
+    max-width: 90%;            /* opcional para no exceder el contenedor */
+    
+}
+
+.hero div button {
+    background-color: #5e2812;      
+    padding: 10px 20px;       
+    border: none;             
+    border-radius: 8px;        
+    cursor: pointer;         
+    font-size: 16px;          
+    
+}
+.hero div button:active {
+    background-color: black;
+
+}
+/* Seccion cafe*/
+.cafe {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-image: url(images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+.cafe div{
+    color:#fff8f0;
+    background-color: rgba(93, 64, 55, 0.9);
+    display: block;
+    border-radius: 10px;
+    text-align: center;  
+
+}
+.cafe div button {
+    background-color: #fff1b3;      
+    padding: 10px 20px;       
+    border: none;             
+    border-radius: 8px;        
+    cursor: pointer;         
+    font-size: 16px;          
+    
+}
+.cafe div button:active {
+    background-color: rgb(79, 43, 2);
+
+}
+/* Seccion postres*/
+.postres {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;      /* centra verticalmente */
+    background-image: url(images/postres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+.postres div{
+    color:#3e2723;
+    background-color: rgba(255, 224, 178, 0.9);
+    display: block;
+    border-radius: 10px;
+    text-align: center;  /* centra horizontalmente */
+
+}
+.postres div button {
+    background-color: #fff1b3;      
+    padding: 10px 20px;       
+    border: none;             
+    border-radius: 8px;        
+    cursor: pointer;         
+    font-size: 16px;          
+    
+}
+.postres div button:active {
+    background-color: rgb(79, 43, 2);
+
+}
+/* Seccion delivery*/
+.delivery {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;      /* centra verticalmente */
+    background-image: url(images/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+.delivery div{
+    color:#fff8f0;
+    background-color: rgba(255, 145, 0, 0.9);
+    display: block;
+    border-radius: 10px;
+    text-align: center;  /* centra horizontalmente */
+
+}
+.delivery div button {
+    background-color: #fff1b3;      
+    padding: 10px 20px;       
+    border: none;             
+    border-radius: 8px;        
+    cursor: pointer;         
+    font-size: 16px;          
+    
+}
+.delivery div button:active {
+    background-color: rgb(79, 43, 2);
+
+}
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
