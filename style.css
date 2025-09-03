@@ -1,4 +1,4 @@
-/* (Estilos generales*/
+/* ===== Estilos generales ===== */
 body {
     font-family: Arial, sans-serif;
     padding: 0;
@@ -7,7 +7,7 @@ body {
     
 }
 
-/*Encabezado */
+/* ===== Encabezado ===== */
 header {
     background-color: #f6cd7c;
     color: rgb(66, 40, 6);
@@ -49,26 +49,26 @@ header {
     max-width: 20%;
 }
 
-/* Secciones */
+/* == Secciones  == */
 section {
 
     font-size: large;
     color: #5e2812;
 }
-/* Seccion hero*/
+/* ===== Seccion hero ===== */
 .hero {
     display: flex;
-    justify-content: center;  /* centra horizontalmente */
-    align-items: center;      /* centra verticalmente */
+    justify-content: center;
+    align-items: center;
     
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;    
     
-    width: 100%;               /* contenedor ocupa todo el ancho */
+    width: 100%;      
     min-height: 80vh;
     
-    margin: 20px auto;         /* centra el bloque si hay margen lateral */
+    margin: 20px auto;         
     padding: 20px;
     border-radius: 5px;
 }
@@ -77,9 +77,9 @@ section {
     background-color: #ffffff;
     display: block;
     text-align: center;
-    padding: 20px;             /* agrega espacio interno */
+    padding: 20px;             
     border-radius: 5px;
-    max-width: 90%;            /* opcional para no exceder el contenedor */
+    max-width: 90%;      
     
 }
 
@@ -96,7 +96,7 @@ section {
     background-color: black;
 
 }
-/* Seccion cafe*/
+/* ===== Seccion cafe ===== */
 .cafe {
     
     display: flex;
@@ -128,12 +128,12 @@ section {
     background-color: rgb(79, 43, 2);
 
 }
-/* Seccion postres*/
+/* ===== Seccion postres ===== */
 .postres {
     
     display: flex;
     justify-content: center;
-    align-items: center;      /* centra verticalmente */
+    align-items: center;      
     background-image: url(images/postres.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,7 +144,7 @@ section {
     background-color: rgba(255, 224, 178, 0.9);
     display: block;
     border-radius: 10px;
-    text-align: center;  /* centra horizontalmente */
+    text-align: center;  
 
 }
 .postres div button {
@@ -160,12 +160,12 @@ section {
     background-color: rgb(79, 43, 2);
 
 }
-/* Seccion delivery*/
+/* ===== Seccion delivery ===== */
 .delivery {
     
     display: flex;
     justify-content: center;
-    align-items: center;      /* centra verticalmente */
+    align-items: center;      
     background-image: url(images/delivery.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +176,7 @@ section {
     background-color: rgba(255, 145, 0, 0.9);
     display: block;
     border-radius: 10px;
-    text-align: center;  /* centra horizontalmente */
+    text-align: center;  
 
 }
 .delivery div button {
@@ -192,7 +192,7 @@ section {
     background-color: rgb(79, 43, 2);
 
 }
-/* Pie de página */
+/* ===== Pie de página ===== */
 footer {
     text-align: center;
     padding: 10px;
